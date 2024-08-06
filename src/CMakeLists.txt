@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.30.2)
 
 project(flutter_zxing LANGUAGES C CXX)
 
