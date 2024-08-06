@@ -32,43 +32,32 @@ class ZxingWeb implements Zxing {
   void stopCameraProcessing() => throw UnimplementedError();
 
   @override
-  Future<Code> processCameraImage(CameraImage image, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Code> processCameraImage(CameraImage image, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Codes> processCameraImageMulti(
-          CameraImage image, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Codes> processCameraImageMulti(CameraImage image, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Code> readBarcodeImagePathString(String path, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Code> readBarcodeImagePathString(String path, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Code> readBarcodeImagePath(XFile path, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Code> readBarcodeImagePath(XFile path, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Code> readBarcodeImageUrl(String url, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Code> readBarcodeImageUrl(String url, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Code readBarcode(Uint8List bytes, DecodeParams params) =>
-      throw UnimplementedError();
+  Code readBarcode(Uint8List bytes, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Codes> readBarcodesImagePathString(String path, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Codes> readBarcodesImagePathString(String path, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Codes> readBarcodesImagePath(XFile path, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Codes> readBarcodesImagePath(XFile path, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Future<Codes> readBarcodesImageUrl(String url, DecodeParams params) =>
-      throw UnimplementedError();
+  Future<Codes> readBarcodesImageUrl(String url, DecodeParams params) => throw UnimplementedError();
 
   @override
-  Codes readBarcodes(Uint8List bytes, DecodeParams params) =>
-      throw UnimplementedError();
+  Codes readBarcodes(Uint8List bytes, DecodeParams params) => throw UnimplementedError();
 }

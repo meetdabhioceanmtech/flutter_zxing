@@ -3,9 +3,7 @@ import 'dart:typed_data';
 import 'package:camera/camera.dart';
 import 'src/models/models.dart';
 
-import 'zxing_cross.dart'
-    if (dart.library.io) 'zxing_mobile.dart'
-    if (dart.library.html) 'zxing_web.dart';
+import 'zxing_cross.dart' if (dart.library.io) 'zxing_mobile.dart' if (dart.library.html) 'zxing_web.dart';
 
 export 'package:camera/camera.dart' show ResolutionPreset, CameraLensDirection;
 export 'src/models/models.dart';
